@@ -439,7 +439,7 @@ footer {
 
 
   nav {
-    position: relative;
+    position: fixed;
     width: 100%;
     background-color: #212121;
     height: 40px;
@@ -454,9 +454,17 @@ footer {
 
   }
 
+  .container {
+    max-width: 30px;
+  }
+
   .nav-container #links li a {
     font-size: 13px;
     margin-left: -10px;
+  }
+
+  .header-container .header-left {
+    width: 350px;
   }
 
   .header-container .header-left h1 {
@@ -464,13 +472,13 @@ footer {
   }
 
   .header-container .header-left h1 p {
-    font-size: 35px;
-    margin-top: -1px;
+    width: 100%;
+    font-size: 30px;
   }
 
   .header-container .header-left p {
     font-size: 13px;
-    width: 35%;
+    width: 100%;
     text-align: justify;
   }
 
@@ -513,11 +521,11 @@ footer {
   .services-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
-  .services-article {
-    width: 350px;
-    margin-left: -100px;
+  .skill-article {
+    margin-left: -90px;
   }
 
   .skills-container {
@@ -571,6 +579,10 @@ footer {
   .contact-container form {
     width: 350px;
 
+  }
+
+  .contact-container {
+    margin-left: 130px;
   }
 
   .form-top {
