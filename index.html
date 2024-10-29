@@ -196,20 +196,17 @@
     <section id="Contact">
         <h1> <span>Get</span> In Touch</h1>
         <div class="contact-container container">
-            <form action="https://api.web3forms.com/submit" method="POST">
-
-    <!-- Replace with your Access Key -->
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <form>
                 <div class="form-top">
-                    <input type="text" placeholder="  First Name" required>
+                    <input type="text" placeholder="First Name" required>
                     <input type="text" placeholder="Last Name" required>
                     <input type="email" placeholder="Email" required>
                     <input type="number" placeholder="Phone Number" required>
 
                 </div>
                 <div class="form-bottom">
-                    <textarea name="message" placeholder="message"></textarea>
-                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit Now</button>
                 </div>
             </form>
         </div>
